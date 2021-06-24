@@ -1,0 +1,25 @@
+<?php 
+$a = 6;
+if($a == 5){
+    echo "\$a'nın değeri 5'e eşittir.";
+} elseif($a > 5){
+    echo "\$a'nın değeri 5'den büyüktür.";
+} else{
+    echo "\$a'nın değeri 5'e eşit değildir.";
+}
+
+if($a == 5)
+    echo "\$a'nın değeri 5'e eşittir.";
+elseif($a > 5)
+    echo "\$a'nın değeri 5'den büyüktür.";
+else
+    echo "\$a'nın değeri 5'e eşit değildir.";
+
+if($a == 5):
+    echo "\$a'nın değeri 5'e eşittir.";
+elseif($a > 5):
+    echo "\$a'nın değeri 5'den büyüktür.";
+else:
+    echo "\$a'nın değeri 5'e eşit değildir.";
+endif;
+?>
